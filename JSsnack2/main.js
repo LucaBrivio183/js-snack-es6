@@ -38,3 +38,20 @@ const students = [
         Grades: 84, 
     },
 ]
+
+
+//filter out better students (Grades > 70)
+const betterStudents = students.filter(item => {
+     if  (item.Grades > 70){
+     return true
+    }});
+
+console.log(betterStudents);
+
+//filter out  better new students (Grades > 70m && Id > 120)
+const betterNewStudents = students.filter(item => {
+    if  (item.Grades > 70 && item.Id > 120){
+        return true
+       }});
+
+  console.log(betterNewStudents);
