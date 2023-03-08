@@ -4,41 +4,47 @@
 const students = [
     {
         Id: 213,
-        Name: 'MARCO DELLA ROVERE',
+        Name: 'Marco della Rovere',
         Grades: 78, 
     },
     {
         Id: 110,
-        Name: 'PAOLA CORTELLESSA',
+        Name: 'Paola Cortellessa',
         Grades: 96, 
     },
     {
         Id: 250,
-        Name: 'ANDREA MANTEGNA',
+        Name: 'Andrea Mantegna',
         Grades: 48, 
     },
     {
         Id: 145,
-        Name: 'GAIA BORROMINI',
+        Name: 'Gaia Borromini',
         Grades: 74, 
     },
     {
         Id: 196,
-        Name: 'LUIGI GRIMALDELLO',
+        Name: 'Luigi Grimaldello',
         Grades: 68, 
     },
     {
         Id: 102,
-        Name: 'PIERO DELLA FRANCESCA',
+        Name: 'Piero della Francesca',
         Grades: 50, 
     },
     {
         Id: 12,
-        Name: 'FRANCESCA DA POLENTA',
+        Name: 'Francesca da Polenta',
         Grades: 84, 
     },
 ]
 
+//map  students name and create uppercase version in a new array
+const upperCaseNames = students.map(item => {
+    return { Name: item.Name.toUpperCase() };
+  });
+
+console.log(upperCaseNames);
 
 //filter out better students (Grades > 70)
 const betterStudents = students.filter(item => {
