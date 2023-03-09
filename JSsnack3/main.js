@@ -1,7 +1,6 @@
 'use strict'
 
 //array of object
-
 const racingBikes = [
     { name: 'Viathon G.1 RED AXS ', weight: 7.5 },
     { name: 'Cannondale Super X', weight: 8.3 },
