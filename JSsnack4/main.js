@@ -21,3 +21,4 @@ const penaltiesAgainst =  soccerTeams.map(({ name, penaltiesAgainst }) => ({ nam
 //print on console
 console.log('Teams:', soccerTeams);
 console.log('Penalties for each team:', penaltiesAgainst);
+
