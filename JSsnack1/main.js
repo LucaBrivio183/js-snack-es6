@@ -22,4 +22,4 @@ const guests = guestsNames.map ((item, index) => {
   };
 });
 
-console.log(guests);
+console.log(guests)
